@@ -69,7 +69,6 @@ void OSCSenderApp::setup(){
 
 void OSCSenderApp::update(){
 	float freq = mMouseLocX / (float)getWindowWidth() * 10.0f;
-	console() << mMouseLocX << "   " << freq << std::endl;
 	positionX = cos(freq * getElapsedSeconds()) / 2.0f + .5f;
 	
 }

@@ -42,6 +42,10 @@ namespace cinder  { namespace osc {
 		void sendMessage(Message& message);
 		void sendBundle(Bundle& bundle);
 		
+	private:
+		
+		 shared_ptr<class OscSender>   oscSender;
+		
 	};
 } // namespace osc
 } // namespace cinder

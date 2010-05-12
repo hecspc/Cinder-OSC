@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>318 170 998 823 0 0 1680 1028 </string>
+						<string>39 179 998 823 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,14 +329,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8FAA4B25119AD16C008BCC95</string>
+										<string>8FAA4B90119B1E94008BCC95</string>
 										<key>history</key>
 										<array>
-											<string>8FAA4B0A119AD160008BCC95</string>
-											<string>8FAA4B0B119AD160008BCC95</string>
-											<string>8FAA4B0C119AD160008BCC95</string>
-											<string>8FAA4B0D119AD160008BCC95</string>
-											<string>8FAA4B0E119AD160008BCC95</string>
+											<string>8FAA4B8E119B1E94008BCC95</string>
+											<string>8FAA4B8F119B1E94008BCC95</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,7 +347,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {790, 514}}</string>
 								<key>RubberWindowFrame</key>
-								<string>318 170 998 823 0 0 1680 1028 </string>
+								<string>39 179 998 823 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -370,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 519}, {790, 263}}</string>
 								<key>RubberWindowFrame</key>
-								<string>318 170 998 823 0 0 1680 1028 </string>
+								<string>39 179 998 823 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -534,7 +531,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>8FAA4B26119AD16C008BCC95</string>
 		<string>8FAA4B13119AD160008BCC95</string>
 		<string>8FAA4B14119AD160008BCC95</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -543,7 +539,7 @@
 		<string>/Work/Cinder/blocks/Cinder-OSC/samples/OSCSender/xcode/OSCSender.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>318 170 998 823 0 0 1680 1028 </string>
+	<string>39 179 998 823 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -564,7 +560,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>OscSender.cpp</string>
+								<string>OSCSenderApp.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

@@ -122,29 +122,31 @@ void OscSender::appendMessage(Message& message, ::osc::OutboundPacketStream& p){
 		}else if (message.getArgType(i) == TYPE_STRING){
 			p << message.getArgAsString(i).c_str();
 		}else {
-			assert(false && "Bad Argument type");
+			throw OscExcInvalidArgumentType();
 		}
 	}
 	p << ::osc::EndMessage;
 }
-	OscSender oscSender;
 	
-	Sender::Sender(){}
+	
+	Sender::Sender(){
+		oscSender = shared_ptr<OscSender>( new OscSender );
+	}
 	
 	Sender::~Sender(){
-		oscSender.shutdown();
+		oscSender->shutdown();
 	}
 	
 	void Sender::setup(std::string hostname, int port){
-		oscSender.setup(hostname, port);
+		oscSender->setup(hostname, port);
 	}
 	
 	void Sender::sendMessage(Message& message){
-		oscSender.sendMessage(message);
+		oscSender->sendMessage(message);
 	}
 	
 	void Sender::sendBundle(Bundle& bundle){
-		oscSender.sendBundle(bundle);
+		oscSender->sendBundle(bundle);
 	}
 	
 }// namespace cinder

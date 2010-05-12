@@ -44,6 +44,10 @@ namespace cinder { namespace osc {
 		bool hasWaitingMessages();
 		
 		bool getNextMessage(Message*);
+		
+	private:
+		
+		 shared_ptr<class OscListener>   oscListener;
 	
 	};
 

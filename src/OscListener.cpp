@@ -176,26 +176,26 @@ bool OscListener::getNextMessage(Message* message){
 	return true;
 }
 	
-	OscListener oscListener;
+
 	
 	Listener::Listener(){
-	
+		oscListener = shared_ptr<OscListener>( new OscListener );
 	}
 	
 	Listener::~Listener(){
-		oscListener.shutdown();
+		oscListener->shutdown();
 	}
 	
 	void Listener::setup(int listen_port){
-		oscListener.setup(listen_port);
+		oscListener->setup(listen_port);
 	}
 	
 	bool Listener::hasWaitingMessages(){
-		return oscListener.hasWaitingMessages();
+		return oscListener->hasWaitingMessages();
 	}
 	
 	bool Listener::getNextMessage(Message* message){
-		return oscListener.getNextMessage(message);
+		return oscListener->getNextMessage(message);
 	}
 	
 	

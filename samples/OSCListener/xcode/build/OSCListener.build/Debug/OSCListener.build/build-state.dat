@@ -1,7 +1,7 @@
 TOSCListener
 v7
 r0
-t295358815.107571
+t295375190.512419
 cCheck dependencies
 cProcessInfoPlistFile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/OSCListener.app/Contents/Resources/CinderApp.icns CinderApp.icns
@@ -312,37 +312,35 @@ s3119
 i<string>
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/OscBundle.h
-c000000004BE9762200000000000008D7
-t1273591330
-s2263
+c000000004BEA9B0800000000000008CF
+t1273666312
+s2255
 i<vector>
 i"OscMessage.h"
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/OscListener.h
-c000000004BEA7E6D000000000000070D
-t1273658989
-s1805
+c000000004BEAD8FC0000000000000743
+t1273682172
+s1859
 i"cinder/Cinder.h"
 i"OscMessage.h"
 i"OscArg.h"
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/OscMessage.h
-c000000004BEA81E20000000000000BA2
-t1273659874
-s2978
+c000000004BEA9AB70000000000000BA3
+t1273666231
+s2979
 i"cinder/Cinder.h"
-i"OscArg.h"
 i"cinder/Exception.h"
+i"OscArg.h"
 i<string>
 i<vector>
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/OscSender.h
-c000000004BEA995D0000000000000723
-t1273665885
-s1827
+c000000004BEAD91C000000000000075F
+t1273682204
+s1887
 i<string>
-i"OscTypes.h"
-i"osc/OscOutboundPacketStream.h"
 i"OscBundle.h"
 i"OscMessage.h"
 
@@ -368,6 +366,13 @@ c000000004B6D0D9600000000000007E0
 t1265438102
 s2016
 i<exception>
+
+N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/osc/OscOutboundPacketStream.h
+c000000004B6D0D9600000000000013B2
+t1265438102
+s5042
+i"OscTypes.h"
+i"OscException.h"
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../include/osc/OscPacketListener.h
 c000000004B6D0D960000000000000A2C
@@ -811,9 +816,9 @@ s2023
 i"OscBundle.h"
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp
-c000000004BEA7D5000000000000012DD
-t1273658704
-s4829
+c000000004BEAD9570000000000001302
+t1273682263
+s4866
 i"cinder/Thread.h"
 i"OscListener.h"
 i"OscTypes.h"
@@ -826,18 +831,18 @@ i<assert.h>
 i<deque>
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp
-c000000004BEA818500000000000010DC
-t1273659781
-s4316
+c000000004BEA9AA400000000000010B4
+t1273666212
+s4276
 i"OscMessage.h"
-i<iostream>
-i<assert.h>
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp
-c000000004BEA99CA0000000000001062
-t1273665994
-s4194
+c000000004BEAD9BB0000000000001087
+t1273682363
+s4231
 i"OscSender.h"
+i"OscOutboundPacketStream.h"
+i"OscTypes.h"
 i"UdpSocket.h"
 i<assert.h>
 
@@ -860,7 +865,7 @@ s147
 i<Cocoa/Cocoa.h>
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app
-t1273666015
+t1273682390
 s102
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/Info.plist
@@ -868,8 +873,8 @@ t1273491250
 s846
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener
-t1273666015
-s7634028
+t1273682389
+s7652564
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/PkgInfo
 t1273491250
@@ -1133,28 +1138,28 @@ t1273528613
 s354172
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o
-t1273659898
-s230688
+t1273682359
+s232128
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCSenderApp.o
 t2
 s0
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o
-t1273659895
+t1273682354
 s158936
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o
-t1273659896
-s372528
+t1273682355
+s385244
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o
-t1273659897
-s143548
+t1273682356
+s123284
 
 N/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o
-t1273665997
-s99300
+t1273682365
+s129324
 
 N/Work/Cinder/blocks/osc/examples/OSCListener/xcode/../../../examples/OSCListener/include/.gitignore
 c000000004BE7EEB5000000000000000D
@@ -9805,7 +9810,7 @@ s857
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies295358797#295358797#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies295375165#295375165#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp-1C82C455009A0B82.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../samples/OSCListener/src/OSCListenerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
@@ -9855,8 +9860,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../src/OSCListenerApp.cpp295221410#295221413#0(0"0(0#0#75"/Work/Cinder/blocks/osc/samples/OSCListener/xcode/../src/OSCListenerApp.cpp4300911832#1743"    cd /Work/Cinder/blocks/osc/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-agpmhgxpdodrkndzazoqkuegjnss/OSCListener_Prefix.pch -c /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../src/OSCListenerApp.cpp -o /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp-EE923FDFC19E7D6E.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s295352694.533688
-e295352698.796072
+s295375154.012842
+e295375159.988050
 r1
 xCompileC
 xbuild/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o
@@ -9865,7 +9870,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp295352694#295352698#0(0"0(0#0#82"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp4300911832#1803"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o0#
+lSLF07#2@90"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp295375154#295375159#0(0"0(0#0#82"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp4300911832#1803"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../src/OSCListenerApp.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListenerApp.o /Work/Cinder/blocks/osc/examples/OSCListener/xcode/../src/OSCListenerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s295189061.566360
@@ -9919,8 +9924,8 @@ CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OS
 r0
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s295352694.534696
-e295352695.026289
+s295375154.013661
+e295375154.477946
 r1
 xCompileC
 xbuild/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o
@@ -9929,7 +9934,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp295352694#295352695#0(0"0(0#0#83"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp4300911832#1799"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o0#
+lSLF07#2@91"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp295375154#295375154#0(0"0(0#0#83"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp4300911832#1799"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscBundle.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o /Work/Cinder/blocks/osc/examples/OSCListener/xcode/../../../src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s295188472.686768
@@ -9958,8 +9963,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscBundle.cpp295221410#295221411#0(0"0(0#0#76"/Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscBundle.cpp4300911832#1722"    cd /Work/Cinder/blocks/osc/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-agpmhgxpdodrkndzazoqkuegjnss/OSCListener_Prefix.pch -c /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscBundle.cpp -o /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscBundle.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s295352695.026428
-e295352696.644484
+s295375154.478047
+e295375155.972175
 r1
 xCompileC
 xbuild/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o
@@ -9968,7 +9973,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp295352695#295352696#0(0"0(0#0#85"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp4300911832#1803"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o0#
+lSLF07#2@93"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp295375154#295375155#0(0"0(0#0#85"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp4300911832#1803"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscListener.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o /Work/Cinder/blocks/osc/examples/OSCListener/xcode/../../../src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s295184472.953687
@@ -9997,8 +10002,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscListener.cpp295221411#295221414#0(0"0(0#0#78"/Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscListener.cpp4300911832#1726"    cd /Work/Cinder/blocks/osc/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-agpmhgxpdodrkndzazoqkuegjnss/OSCListener_Prefix.pch -c /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscListener.cpp -o /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscListener.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s295352696.644644
-e295352697.146115
+s295375155.972412
+e295375156.346849
 r1
 xCompileC
 xbuild/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o
@@ -10007,7 +10012,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp295352696#295352697#0(0"0(0#0#84"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp4300911832#1801"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o0#
+lSLF07#2@92"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp295375155#295375156#0(0"0(0#0#84"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp4300911832#1801"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscMessage.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o /Work/Cinder/blocks/osc/examples/OSCListener/xcode/../../../src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s295184475.908167
@@ -10036,8 +10041,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscMessage.cpp295221413#295221414#0(0"0(0#0#77"/Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscMessage.cpp4300911832#1724"    cd /Work/Cinder/blocks/osc/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-agpmhgxpdodrkndzazoqkuegjnss/OSCListener_Prefix.pch -c /Work/Cinder/blocks/osc/samples/OSCListener/xcode/../../../src/OscMessage.cpp -o /Work/Cinder/blocks/osc/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscMessage.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s295358797.537910
-e295358797.824196
+s295375165.328108
+e295375165.705317
 r1
 xCompileC
 xbuild/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o
@@ -10046,7 +10051,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp295358797#295358797#0(0"0(0#0#83"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp4300911832#1799"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o0#
+lSLF07#2@91"Compile /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp295375165#295375165#0(0"0(0#0#83"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp4300911832#1799"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -include /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-dmvbtokefsdofydhmgptabfgxqis/OSCListener_Prefix.pch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../src/OscSender.cpp -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o0#
 
 CCompileC build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OscSender.o /Work/Cinder/blocks/osc/examples/OSCListener/xcode/../../../src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s295189599.396172
@@ -11231,14 +11236,14 @@ x../../../.git/hooks/update.sample
 lSLF07#2@38"Copy ../../../.git/hooks/update.sample295269041#295269041#0(0"0(0#0#90"/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../.git/hooks/update.sample4300911832#407"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../.git/hooks/update.sample /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/Resources0#
 
 CLd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener normal i386
-s295358797.824271
-e295358815.105229
+s295375165.705402
+e295375190.036408
 r1
 xLd
 x/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener
 xnormal
 xi386
-lSLF07#2@116"Link /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener295358797#295358815#0(0"0(0#0#0"4300911832#1029"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -L/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../libs/osx -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -filelist /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListener.LinkFileList -mmacosx-version-min=10.5 ../../../../../lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../libs/osx/osc.a -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener0#
+lSLF07#2@116"Link /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener295375165#295375190#0(0"0(0#0#0"4300911832#1029"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -L/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../libs/osx -F/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug -filelist /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/Objects-normal/i386/OSCListener.LinkFileList -mmacosx-version-min=10.5 ../../../../../lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/../../../libs/osx/osc.a -o /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener0#
 
 CLd /Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/Debug/OSCListener.app/Contents/MacOS/OSCListener normal i386
 s295193880.359634
@@ -11328,12 +11333,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@33"Precompile OSCListener_Prefix.pch295184050#295184050#0(0"0(0#0#73"/Work/Cinder/blocks/osc/examples/OSCListener/xcode/OSCListener_Prefix.pch4300911832#1600"    cd /Work/Cinder/blocks/osc/examples/OSCListener/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-generated-files.hmap -I/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-own-target-headers.hmap -I/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-all-target-headers.hmap -iquote /Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/OSCListener-project-headers.hmap -F/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/Debug/include -I../../../../../boost -I/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources/i386 -I/Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/OSCListener.build/Debug/OSCListener.build/DerivedSources -c /Work/Cinder/blocks/osc/examples/OSCListener/xcode/OSCListener_Prefix.pch -o /var/folders/Lw/LwRyRWfLF0elrErLyBQcy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCListener_Prefix-fbfthibuwfibnwcuhjclidmqfkzk/OSCListener_Prefix.pch.gch0#
 
 CTouch /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app
-s295358815.105472
-e295358815.107549
+s295375190.036744
+e295375190.512373
 r1
 xTouch
 x/Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app
-lSLF07#2@90"Touch /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app295358815#295358815#0(0"0(0#0#0"4300911832#171"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    /usr/bin/touch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app0#
+lSLF07#2@90"Touch /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app295375190#295375190#0(0"0(0#0#0"4300911832#171"    cd /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode    /usr/bin/touch -c /Work/Cinder/blocks/Cinder-OSC/samples/OSCListener/xcode/build/Debug/OSCListener.app0#
 
 CTouch /Work/Cinder/blocks/osc/examples/OSCListener/xcode/build/Debug/OSCListener.app
 s295193897.497402
