@@ -183,10 +183,6 @@ bool OscListener::getNextMessage(Message* message){
 		oscListener = shared_ptr<OscListener>( new OscListener );
 	}
 	
-	Listener::~Listener(){
-		oscListener->shutdown();
-	}
-	
 	void Listener::setup(int listen_port){
 		oscListener->setup(listen_port);
 	}

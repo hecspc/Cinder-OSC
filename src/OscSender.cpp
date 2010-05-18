@@ -133,10 +133,6 @@ void OscSender::appendMessage(Message& message, ::osc::OutboundPacketStream& p){
 		oscSender = shared_ptr<OscSender>( new OscSender );
 	}
 	
-	Sender::~Sender(){
-		oscSender->shutdown();
-	}
-	
 	void Sender::setup(std::string hostname, int port){
 		oscSender->setup(hostname, port);
 	}

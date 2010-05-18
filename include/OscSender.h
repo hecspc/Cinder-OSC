@@ -35,7 +35,6 @@ namespace cinder  { namespace osc {
 	class Sender  {
 	public:
 		Sender();
-		~Sender();
 		
 		void setup(std::string hostname, int port);
 		

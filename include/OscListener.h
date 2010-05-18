@@ -37,7 +37,6 @@ namespace cinder { namespace osc {
 		
 	public:
 		Listener();
-		~Listener();
 		
 		void setup(int listen_port);
 		
