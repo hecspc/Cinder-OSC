@@ -25,11 +25,12 @@
  */
 
 #include "cinder/Thread.h" 
+#include "cinder/Utilities.h"
 #include "OscListener.h"
-#include "OscTypes.h"
-#include "OscPacketListener.h"
-#include "OscReceivedElements.h"
-#include "UdpSocket.h"
+#include "osc/OscTypes.h"
+#include "osc/OscPacketListener.h"
+#include "osc/OscReceivedElements.h"
+#include "ip/UdpSocket.h"
 
 #include <boost/bind.hpp>
 
@@ -96,7 +97,7 @@ void OscListener::shutdown(){
 		mListen_socket->AsynchronousBreak();
 		
 		while (!mSocketHasShutdown) {
-			usleep(100);
+			ci::sleep( 1 );
 		}
 		
 		mThread->join();
