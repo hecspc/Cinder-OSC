@@ -24,7 +24,6 @@
  POSSIBILITY OF SUCH DAMAGE.
  */
 
-
 #pragma once
 
 #include "cinder/Cinder.h"
@@ -36,65 +35,47 @@
 
 namespace cinder { namespace osc {
 	
-	
 	class Message {
 	public:
-		Message();
+		Message() {}
 		~Message();
 		Message( const Message& other ){ copy ( other ); }
 		Message& operator= ( const Message& other ) { return copy( other ); }
 
 		Message& copy( const Message& other );
-		
-
 		void clear();
 		
-
 		std::string getAddress() const { return address; }
+		std::string getRemoteIp() const { return remote_host; }
+		int getRemotePort() const { return remote_port; }
+		void setAddress( std::string _address ) { address = _address; };
+		void setRemoteEndpoint( std::string host, int port ) { remote_host = host; remote_port = port; }
 		
-
-		std::string getRemoteIp() { return remote_host; }
-
-		int getRemotePort() { return remote_port; }
-		
-
 		int getNumArgs() const;
-
 		ArgType getArgType( int index ) const;
-		
 		std::string getArgTypeName( int index ) const;
-		
 		
 		int32_t getArgAsInt32( int index, bool typeConvert = true ) const;
 		float getArgAsFloat( int index, bool typeConvert = true ) const;
 		std::string getArgAsString( int index, bool typeConvert = true ) const;
 		
-		
-		void setAddress( std::string _address ) { address = _address; };
-
-		void setRemoteEndpoint( std::string host, int port ) { remote_host = host; remote_port = port; }
 		void addIntArg( int32_t argument );
 		void addFloatArg( float argument );
 		void addStringArg( std::string argument );
+		
 	protected:
 		std::string address;
 		std::vector<Arg*> args;
 		
 		std::string remote_host;
-		int remote_port;
-		
+		int remote_port;	
 	};
 	
-	
-	class OscExc : public Exception{
-		
+	class OscExc : public Exception {
 	};
 	class OscExcInvalidArgumentType : public OscExc {
-		
 	};
-	
 	class OscExcOutOfBounds : public OscExc {
-		
 	};
 
 } // namespace osc

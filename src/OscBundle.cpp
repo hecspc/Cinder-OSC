@@ -38,11 +38,11 @@ Bundle::~Bundle(){
 }
 
 Bundle& Bundle::copy(const Bundle& other){
-	for (int i = 0; i < other.bundles.size(); i++) {
+	for (size_t i = 0; i < other.bundles.size(); i++) {
 		bundles.push_back(other.bundles[i]);
 	}
 	
-	for (int i = 0; i < other.messages.size(); i++) {
+	for (size_t i = 0; i < other.messages.size(); i++) {
 		messages.push_back(other.messages[i]);
 	}
 	

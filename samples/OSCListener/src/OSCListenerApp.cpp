@@ -24,12 +24,10 @@
  POSSIBILITY OF SUCH DAMAGE.
  */
 
-
 #include "cinder/app/AppBasic.h"
 
 using namespace ci;
 using namespace ci::app;
-
 
 #include "OscListener.h"
 
@@ -45,6 +43,7 @@ class OSCListenerApp : public AppBasic {
 	osc::Listener listener;
 	float positionX;
 };
+
 void OSCListenerApp::prepareSettings(Settings *settings){
 	settings->setFrameRate(60.0f);
 	settings->setWindowSize(640, 480);
@@ -69,16 +68,16 @@ void OSCListenerApp::update(){
 				try {
 					console() << "------ value: "<< message.getArgAsInt32(i) << std::endl;
 				}
-				catch (int value) {
-					console() << "------ value through exception: "<< value << std::endl;
+				catch (...) {
+					console() << "Exception reading argument as int32" << std::endl;
 				}
 				
 			}else if (message.getArgType(i) == osc::TYPE_FLOAT){
 				try {
 					console() << "------ value: " << message.getArgAsFloat(i) << std::endl;
 				}
-				catch (float val) {
-					console() << "------ value trough exception: " << val << std::endl;
+				catch (...) {
+					console() << "Exception reading argument as float" << std::endl;
 				}
 				
 				positionX = message.getArgAsFloat(0);
@@ -86,8 +85,8 @@ void OSCListenerApp::update(){
 				try {
 					console() << "------ value: " << message.getArgAsString(i).c_str() << std::endl;
 				}
-				catch (std::string str) {
-					console() << "------ value: " << str << std::endl;
+				catch (...) {
+					console() << "Exception reading argument as string" << std::endl;
 				}
 							
 			}

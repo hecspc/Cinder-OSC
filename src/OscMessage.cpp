@@ -28,10 +28,6 @@
 
 namespace cinder { namespace osc {
 
-Message::Message(){
-
-}
-
 Message::~Message(){
 	clear();
 }
@@ -40,18 +36,16 @@ void Message::clear(){
 	for (unsigned int i=0; i < args.size(); ++i){
 		delete args[i];
 	}
-		args.clear();
-		address = "";
+	args.clear();
+	address = "";
 }
 
 int Message::getNumArgs() const{
 	return (int)args.size();
 }
 
-
 ArgType Message::getArgType(int index) const{
 	if (index >= (int)args.size()){
-		
 		throw OscExcOutOfBounds();
 	}else {
 		return args[index]->getType();
@@ -60,35 +54,30 @@ ArgType Message::getArgType(int index) const{
 
 std::string Message::getArgTypeName(int index) const{
 	if (index >= (int)args.size()){
-		
 		throw OscExcOutOfBounds();
 	}else {
 		return args[index]->getTypeName();
 	}
 }
 
-int32_t Message::getArgAsInt32(int index, bool typeConvert)const {
+int32_t Message::getArgAsInt32(int index, bool typeConvert) const{
 	if (getArgType(index) != TYPE_INT32){
 		if( typeConvert && (getArgType(index) == TYPE_FLOAT) )
-			throw ((ArgFloat*)args[index])->get();
+			return (int32_t)((ArgFloat*)args[index])->get();
 		else
 			throw OscExcInvalidArgumentType();
-		
 	}else 
 		return ((ArgInt32*)args[index])->get();
-	
 }
 
 float Message::getArgAsFloat(int index, bool typeConvert) const{
 	if (getArgType(index) != TYPE_FLOAT){
 		if( typeConvert && (getArgType(index) == TYPE_INT32) )
-			throw ((ArgInt32*)args[index])->get();
+			return (float)((ArgInt32*)args[index])->get();
 		else
 			throw OscExcInvalidArgumentType();
 	}else
         return ((ArgFloat*)args[index])->get();
-	
-
 }
 
 std::string Message::getArgAsString( int index, bool typeConvert ) const{
@@ -96,12 +85,12 @@ std::string Message::getArgAsString( int index, bool typeConvert ) const{
 	    if (typeConvert && (getArgType(index) == TYPE_FLOAT) ){
             char buf[1024];
             sprintf(buf,"%f",((ArgFloat*)args[index])->get() );
-            throw buf;
+            return std::string( buf );
         }
 	    else if (typeConvert && (getArgType(index) == TYPE_INT32)){
             char buf[1024];
             sprintf(buf,"%i",((ArgInt32*)args[index])->get() );
-            throw buf;
+            return std::string( buf );
         }
         else
             throw OscExcInvalidArgumentType();
@@ -109,9 +98,6 @@ std::string Message::getArgAsString( int index, bool typeConvert ) const{
 	else
         return ((ArgString*)args[index])->get();
 }
-
-
-
 
 void Message::addIntArg( int32_t argument ){
 	args.push_back( new ArgInt32( argument ) );
@@ -125,7 +111,6 @@ void Message::addStringArg( std::string argument ){
 	args.push_back( new ArgString( argument ) );
 }
 	
-
 Message& Message::copy( const Message& other ){
 
 	address = other.address;
@@ -133,7 +118,6 @@ Message& Message::copy( const Message& other ){
 	remote_host = other.remote_host;
 	remote_port = other.remote_port;
 	
-
 	for ( int i=0; i<(int)other.args.size(); ++i ){
 		ArgType argType = other.getArgType( i );
 		if ( argType == TYPE_INT32 )
@@ -150,5 +134,6 @@ Message& Message::copy( const Message& other ){
 	
 	return *this;
 }
+
 } // namespace cinder
 } // namespace osc

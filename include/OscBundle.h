@@ -24,13 +24,9 @@
  POSSIBILITY OF SUCH DAMAGE.
  */
 
-
 #pragma once
 
-
 #include <vector>
-
-
 #include "OscMessage.h"
 
 namespace cinder  { namespace osc {
@@ -55,7 +51,6 @@ namespace cinder  { namespace osc {
 		Message& getMessageAt(int index) {return messages[index];}
 		
 	private:
-		
 		std::vector<Message> messages;
 		std::vector<Bundle> bundles;
 	};	

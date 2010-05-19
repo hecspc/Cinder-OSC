@@ -46,11 +46,10 @@ typedef enum _ArgType
 	class Arg
 	{
 	public:
-		Arg(){};
 		virtual ~Arg() {};
 		
-		virtual ArgType getType() { return TYPE_NONE; }
-		virtual std::string getTypeName() { return "none"; }
+		virtual ArgType getType() const { return TYPE_NONE; }
+		virtual std::string getTypeName() const { return "none"; }
 		
 	private:
 	};
@@ -59,11 +58,10 @@ typedef enum _ArgType
 	{
 	public:
 		ArgInt32( int32_t _value ) { value = _value; }
-		~ArgInt32() {};
 		
 		/// return the type of this argument
-		ArgType getType() { return TYPE_INT32; }
-		std::string getTypeName() { return "int32"; }
+		ArgType getType() const { return TYPE_INT32; }
+		std::string getTypeName() const { return "int32"; }
 		
 		/// return value
 		int32_t get() const { return value; }
@@ -78,11 +76,10 @@ typedef enum _ArgType
 	{
 	public:
 		ArgFloat( float _value ) { value = _value; }
-		~ArgFloat() {};
 		
 		/// return the type of this argument
-		ArgType getType() { return TYPE_FLOAT; }
-		std::string getTypeName() { return "float"; }
+		ArgType getType() const { return TYPE_FLOAT; }
+		std::string getTypeName() const { return "float"; }
 		
 		/// return value
 		float get() const { return value; }
@@ -97,11 +94,10 @@ typedef enum _ArgType
 	{
 	public:
 		ArgString( std::string _value ) { value = _value; }
-		~ArgString() {};
 		
 		/// return the type of this argument
-		ArgType getType() { return TYPE_STRING; }
-		std::string getTypeName() { return "string"; }
+		ArgType getType() const { return TYPE_STRING; }
+		std::string getTypeName() const { return "string"; }
 		
 		/// return value
 		std::string get() const { return value; }
