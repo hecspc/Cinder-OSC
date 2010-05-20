@@ -55,9 +55,9 @@ namespace cinder { namespace osc {
 		ArgType getArgType( int index ) const;
 		std::string getArgTypeName( int index ) const;
 		
-		int32_t getArgAsInt32( int index, bool typeConvert = true ) const;
-		float getArgAsFloat( int index, bool typeConvert = true ) const;
-		std::string getArgAsString( int index, bool typeConvert = true ) const;
+		int32_t getArgAsInt32( int index, bool typeConvert = false ) const;
+		float getArgAsFloat( int index, bool typeConvert = false ) const;
+		std::string getArgAsString( int index, bool typeConvert = false ) const;
 		
 		void addIntArg( int32_t argument );
 		void addFloatArg( float argument );
